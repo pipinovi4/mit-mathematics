@@ -240,7 +240,7 @@ $$
 
 ### Binomial Theorem
 
-$$\boxed{(x + \Delta x)^n = (x + \Delta x)\cdots(x + \Delta x) = x^n + nx^{n-1}\Delta x + O(\Delta x^2)}$$
+$\boxed{(x + \Delta x)^n = (x + \Delta x)\cdots(x + \Delta x) = x^n + nx^{n-1}\Delta x + O(\Delta x^2)}$
 
 #### The junk is $O(\Delta x^2)$: terms containing
 
