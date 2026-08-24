@@ -246,18 +246,18 @@ $$\boxed{(x + \Delta x)^n = (x + \Delta x)\cdots(x + \Delta x) = x^n + nx^{n-1}\
 
 $(\Delta x)^2$, $(\Delta x)^3$, or higher powers.
 
-$$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left((x+\Delta x)^n-x^n \right)$$
+$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left((x+\Delta x)^n-x^n \right)$
 
-$$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(x^n + nx^{n-1}\Delta x + O(\Delta x^2) - x^n \right)$$
+$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(x^n + nx^{n-1}\Delta x + O(\Delta x^2) - x^n \right)$
 
-$$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(nx^{n-1}\Delta x + O(\Delta x^2)\right)$$
+$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(nx^{n-1}\Delta x + O(\Delta x^2)\right)$
 
-$$\frac{\Delta f}{\Delta x} = nx^{n-1} + O(\Delta x)$$
+$\frac{\Delta f}{\Delta x} = nx^{n-1} + O(\Delta x)$
 
 #### As $\Delta x \to 0$:
 
-$$\boxed{ \frac{d}{dx}x^n = nx^{n-1} }$$
+$\boxed{ \frac{d}{dx}x^n = nx^{n-1} }$
 
 #### Extends to polynomials 
 
-$$\frac{d}{dx}(x^3 + 5x^{10}) = 3x^2 + 50x^9$$
+$\frac{d}{dx}(x^3 + 5x^{10}) = 3x^2 + 50x^9$
