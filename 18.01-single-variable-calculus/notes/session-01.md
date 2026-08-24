@@ -240,36 +240,15 @@ $$
 
 ### Binomial Theorem
 
-$$
-\boxed{
-(x + \Delta x)^n
-=
-(x + \Delta x)\cdots(x + \Delta x)
-=
-x^n + nx^{n-1}\Delta x + O(\Delta x^2)
-}
-$$
+$$\boxed{(x + \Delta x)^n = (x + \Delta x)\cdots(x + \Delta x) = x^n + nx^{n-1}\Delta x + O(\Delta x^2)}$$
 
 #### The junk is $O(\Delta x^2)$: terms containing
+
 $(\Delta x)^2$, $(\Delta x)^3$, or higher powers.
 
-$$
-\frac{\Delta f}{\Delta x}
-=
-\frac{1}{\Delta x}
-\left(
-(x+\Delta x)^n-x^n
-\right)
-$$
+$$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left((x+\Delta x)^n-x^n \right)$$
 
-$$
-\frac{\Delta f}{\Delta x}
-=
-\frac{1}{\Delta x}
-\left(
-x^n + nx^{n-1}\Delta x + O(\Delta x^2) - x^n
-\right)
-$$
+$$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(x^n + nx^{n-1}\Delta x + O(\Delta x^2) - x^n \right)$$
 
 $$\frac{\Delta f}{\Delta x} = \frac{1}{\Delta x} \left(nx^{n-1}\Delta x + O(\Delta x^2)\right)$$
 
